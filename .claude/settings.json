@@ -1,0 +1,27 @@
+{
+  "_vermerk": "Erstfassung 08.11.2026 von Hand; wird vom CLAUDE.md- und Hook-Generator (Portfolio 1.7) ersetzt. Hooks sind der Harness nach Loop-Engineering 4. TESTDATEN ERFUNDEN gilt fuer alle Tests.",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write|Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 .claude/hooks/pfadwaechter.py"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 .claude/hooks/tests_nach_aenderung.py"
+          }
+        ]
+      }
+    ]
+  }
+}
