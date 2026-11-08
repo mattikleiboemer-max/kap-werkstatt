@@ -1,6 +1,6 @@
 # kap-werkstatt — Werkstatt des Projekts Programmieren mit Claude Code
 
-Werkstatt des Knotens QM70 (QM-Handbooks/70_Programmieren-mit-Claude-Code/Werkstatt), angelegt im Gründungslauf des Kontos Privat am 08.11.2026 als Git-Repository; der private GitHub-Remote wird verbunden, sobald der Senior Partner die URL nennt (Handgriff vier). Keine Mandatsdaten; alle Testdaten sind erfunden.
+Werkstatt des Knotens QM70 (QM-Handbooks/70_Programmieren-mit-Claude-Code/Werkstatt), angelegt im Gründungslauf des Kontos Privat am 08.11.2026 als Git-Repository; Remote origin = https://github.com/mattikleiboemer-max/kap-werkstatt.git (privat), verbunden am 08.11.2026; der erste Push läuft aus dem Windows-Terminal des Senior Partners, weil die Geräte-Shell keine GitHub-Anmeldung hat. Keine Mandatsdaten; alle Testdaten sind erfunden.
 
 Inhalt: CLAUDE.md (stehende Anweisung des Repositorys, Erstfassung von Hand), .claude/settings.json mit zwei Hooks (Pfadwächter vor jedem Werkzeugaufruf, Golden-Tests nach jeder Änderung), tools/sitzungsschluss_pruefer.py (erstes Werkzeug, Lektion eins), tests/golden_sitzungsschluss_test.py (sieben Fälle, grün am 08.11.2026 in der Linux-Umgebung des verbundenen Rechners), REGISTER.md.
 
